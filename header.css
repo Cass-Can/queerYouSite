@@ -1,0 +1,98 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+header{ 
+    width: 100%;
+    height: 3em;
+    border:1pt solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+/* This is the header stuff */
+.queerYouTitle{ 
+    font-family: 'Geostar Fill', cursive;    
+    line-height:2.5em;
+    font-size: 1.25em;
+    text-align: center;
+    width: 25em;
+}
+.searchBar{ 
+    
+}
+.sb{ 
+    padding-top:.75em;
+    width: 20em;
+}
+.input{ 
+    border: 1px solid #453e38;
+    width: 20.46em;
+    background: transparent;
+    padding: 0.35em 0.5em;
+    border-radius: 25px;
+}
+.loginLikesNew{ 
+
+    display: flex;
+    justify-content: center;
+
+
+}
+.circleLogin{ 
+    height: 2.7em;
+    width: 2.7em;
+    border: 0.5px solid #453e38;
+    line-height: 2.7em;
+    border-radius: 50%;
+    transition: 0.2s;
+    margin-top: .1em;
+    
+}
+.circleLogin:hover{ 
+    opacity: 1;
+    background-color: #453e38;
+    color: white;
+}
+.login{ 
+position: relative;
+text-align: center;
+text-decoration: none;
+background-color: none;
+color: #453e38;
+margin-left: 0.15em;
+}
+.login:hover{ 
+    background: none;
+    color: white;
+}
+.heart{ 
+    height: 3em;
+    width: 3em;
+    border: none;
+    background:none;
+    cursor: pointer;
+    margin-top: 0.59em;
+    margin-left: 0.4em;
+}
+.add{ 
+    height: 3em;
+    width: 3em;
+    border: none;
+    background:none;
+    cursor: pointer;
+    margin-bottom: 0em;
+}
+.circleLogin, .heart, .add{ 
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
+.iconButtons{ 
+    background: none;
+    border: none;
+}
+.searchBar, .loginLikesNew{ 
+    width: 15em;
+    background-color: none;
+}

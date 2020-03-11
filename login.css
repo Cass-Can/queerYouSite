@@ -1,0 +1,81 @@
+.background-img{
+    margin-bottom: 9em;
+    filter: blur(2px);
+    border-radius: 20em;
+    width: 70em;
+
+}
+.img_and_login{
+
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        /* bring your own prefixes */
+        margin-left: -35em;
+        margin-top: -20em;
+      }
+}
+.img{
+}
+#password,#username{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  margin-left: -35em;
+  margin-top: -20em;
+  font-family: "Helvetica Neue", sans-serif,serif;
+  font-size: 1.3em;
+  color: white;
+}
+#red-info-tag{
+  background-color:#ea3327;
+  padding: 0.1em 1em 0.16em 1em;
+  margin: 2em;
+  border-radius: 1em;
+}
+#white-button{
+  background-color: white;
+  padding: 0.1em 1em 0.16em 1em;
+  border-radius: 1em;
+  font-family: "Helvetica Neue", sans-serif,serif;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+}
+#password{
+  margin-left: -17em;
+  margin-top: 1.5em;
+}
+#username{
+  margin-left: -20em;
+  margin-top: -2.5em;
+}
+#txt-input{
+  padding: 0.0em 1em 0.04em 1em;
+  border-radius: 1em;
+  font-size: 1em;
+}
+#login-btn{
+  position: fixed;
+  top: 50%;
+  left: 42%;
+  margin-left: -2em;
+  margin-top: 8em;
+}
+#register-btn{
+  position: fixed;
+  top: 50.35%;
+  left: 53%;
+  margin-left: -2em;
+  margin-top: 8em;
+}
+#white-button2{
+  background-color: white;
+  padding: 0.2em 1em 0.16em 1em;
+  border-radius: 1em;
+  font-family: "Helvetica Neue", sans-serif,serif;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+}

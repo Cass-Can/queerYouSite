@@ -1,0 +1,49 @@
+.styles{ 
+    display: flex;
+    justify-content: space-around;
+}
+
+.styleRectangle{ 
+    margin-top: 3em;
+    border: 0.1em solid black;
+    width: 12em;
+    height: 36em;
+   
+}
+.one{ 
+    background: url('images/AW_1.png');
+    background-size: cover ;
+    width: 12em;
+    height: 12em;
+}
+.two{ 
+    background: url('images/AW_2.png');
+    background-size: cover ;
+    width: 12em;
+    height: 12em;
+    
+}
+.three{ 
+    width: 12em;
+    height: 12em;
+
+}
+.button{
+    background-color: transparent;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.styleTitle{ 
+    font-family: "Helvetica Neue", sans-serif,serif;
+    font-size: 2.2em;
+    text-align: center;
+    font-weight: 200;
+}
+.titleBox{ 
+    
+    position: relative;
+    top: 1.5em;
+    bottom: 1.5em;
+}
